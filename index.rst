@@ -3,16 +3,32 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to OMG's documentation!
+《Oh My Gene》 软件需求规格说明书
 ===============================
-
+目录
+--------
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   前言
+   项目总体概述
+   具体需求
+   使用实例
+   变更情况
 
+团队信息
+-----------------
 
-Indices and tables
-==================
+团队名称
+~~~~~~~~~~~
+
+团队成员
+~~~~~~~~~~~~~
+* 余慧, 201736900117, 945168786@qq.com
+* 叶红霞, 201736900115, 1655602611@qq.com
+
+历史版本
+~~~~~~~~~~~~~
+2019年3月
 
 * :ref:`genindex`
 * :ref:`modindex`
