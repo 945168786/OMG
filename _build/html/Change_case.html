@@ -6,7 +6,7 @@
   <head>
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>二、项目总体概述 &#8212; OMG  documentation</title>
+    <title>五、变更情况 &#8212; OMG  documentation</title>
     <link rel="stylesheet" href="_static/classic.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     
@@ -18,8 +18,7 @@
     
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="具体需求" href="command.html" />
-    <link rel="prev" title="一、前言" href="Preface.html" /> 
+    <link rel="prev" title="具体需求" href="command.html" /> 
   </head><body>
     <div class="related" role="navigation" aria-label="related navigation">
       <h3>Navigation</h3>
@@ -29,9 +28,6 @@
              accesskey="I">index</a></li>
         <li class="right" >
           <a href="command.html" title="具体需求"
-             accesskey="N">next</a> |</li>
-        <li class="right" >
-          <a href="Preface.html" title="一、前言"
              accesskey="P">previous</a> |</li>
         <li class="nav-item nav-item-0"><a href="index.html">OMG  documentation</a> &#187;</li> 
       </ul>
@@ -43,24 +39,52 @@
           <div class="body" role="main">
             
   <div class="section" id="id1">
-<h1>二、项目总体概述<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
+<h1>五、变更情况<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="id2">
-<h2>2.1软件概述<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
-<p>本项目具体能进行数据的导入，提取出某一激素（或其他量）在某一条件下对应的横纵坐标的位置，将大量的数据点在直角坐标系平面上进行散点呈现，同时可以大致得到一个近似的横纵坐标量的相关系数。同时，可以手动对目标的几个激素进行选择查看，查看其是否具有相关性。</p>
+<h2>5.1使用存在的意外情况<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<dl class="docutils">
+<dt><strong>情况一</strong></dt>
+<dd><ul class="first last simple">
+<li>问题：在数据上传过程中，可能会因为出现一些错误数据，数据上传格式不标准，上传数据的顺序错误等导致数据的错误显示。</li>
+<li>解决方式：在数据上传前显示上传格式以及上传规范等，尽量避免错误数据显示的情况。</li>
+</ul>
+</dd>
+<dt><strong>情况二</strong></dt>
+<dd><ul class="first last simple">
+<li>问题：由于数据要暂时保存进行选取，如果用户上传的数据过大，可能会出现数据溢出，出现错误显示的情况。</li>
+<li>解决方式：在上传前限制上传的数据大小在10M内，控制最大量，如果超出该范围则弹出提示信息并进行重新上传操作。</li>
+</ul>
+</dd>
+<dt><strong>情况三</strong></dt>
+<dd><ul class="first last simple">
+<li>问题：页面处理时间过长，网页无反应</li>
+<li>解决方式：定期进行后台检测和维护，设立用户建议栏，并对用户的反馈进行查看</li>
+</ul>
+</dd>
+</dl>
 </div>
 <div class="section" id="id3">
-<h2>2.2软件功能<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
-<img alt="_images/function.png" src="_images/function.png" />
-</div>
-<div class="section" id="id4">
-<h2>2.3用户特征<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
-<p>本软件的使用人员有以下几类：</p>
+<h2>5.2未来可能出现的改进<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
 <blockquote>
-<div><p>1）有数值分析需求的科研工作者，如生物学家，经济学家等</p>
-<p>2）软件后台的操作人员及维护人员</p>
-<p>3）需要进行图像呈现的学生、网络用户</p>
+<div><ul class="simple">
+<li><ol class="first arabic">
+<li>本软件对数据的上传格式有严格的要求，必须按照一定的顺序进行上传，但这样限制上传格式繁琐复杂，可能反而会增加用户的负担。今后可以在这方面进行加强和改进，令数据的处理更加智能。</li>
+</ol>
+</li>
+<li><ol class="first arabic" start="2">
+<li>在后台应用更高效的算法分析数据，使数据的处理及图像的呈现速度和准确率进一步提升，提升用户体验。</li>
+</ol>
+</li>
+<li><ol class="first arabic" start="3">
+<li>在本软件中，我们主要针对的是散点图的呈现，在今后的软件更新中，我们可以增加更多的图形呈现，折线图，柱状图，饼状图等，让本软件的应用更加广泛，让用户收益。</li>
+</ol>
+</li>
+<li><ol class="first arabic" start="4">
+<li>支持结果分析以报告的形式导出，支持.pdf, .docx 文档或 .jpg,.png等图片格式导出。</li>
+</ol>
+</li>
+</ul>
 </div></blockquote>
-<p>由上述本软件的使用人员可知，该用户群体普遍接受过高等教育，学习及适应能力强，具有科学逻辑思维或是一定的编程能力。能快速适应该软件的数据上传要求甚至能对该软件的升级进行，并充分感受到在数据分析时的便利，提出合理的改进意见。</p>
 </div>
 </div>
 
@@ -72,24 +96,20 @@
         <div class="sphinxsidebarwrapper">
   <h3><a href="index.html">Table of Contents</a></h3>
   <ul>
-<li><a class="reference internal" href="#">二、项目总体概述</a><ul>
-<li><a class="reference internal" href="#id2">2.1软件概述</a></li>
-<li><a class="reference internal" href="#id3">2.2软件功能</a></li>
-<li><a class="reference internal" href="#id4">2.3用户特征</a></li>
+<li><a class="reference internal" href="#">五、变更情况</a><ul>
+<li><a class="reference internal" href="#id2">5.1使用存在的意外情况</a></li>
+<li><a class="reference internal" href="#id3">5.2未来可能出现的改进</a></li>
 </ul>
 </li>
 </ul>
 
   <h4>Previous topic</h4>
-  <p class="topless"><a href="Preface.html"
-                        title="previous chapter">一、前言</a></p>
-  <h4>Next topic</h4>
   <p class="topless"><a href="command.html"
-                        title="next chapter">具体需求</a></p>
+                        title="previous chapter">具体需求</a></p>
   <div role="note" aria-label="source link">
     <h3>This Page</h3>
     <ul class="this-page-menu">
-      <li><a href="_sources/Overview.rst.txt"
+      <li><a href="_sources/Change_case.rst.txt"
             rel="nofollow">Show Source</a></li>
     </ul>
    </div>
@@ -117,9 +137,6 @@
              >index</a></li>
         <li class="right" >
           <a href="command.html" title="具体需求"
-             >next</a> |</li>
-        <li class="right" >
-          <a href="Preface.html" title="一、前言"
              >previous</a> |</li>
         <li class="nav-item nav-item-0"><a href="index.html">OMG  documentation</a> &#187;</li> 
       </ul>
