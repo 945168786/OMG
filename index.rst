@@ -25,7 +25,7 @@
 
 团队名称
 ~~~~~~~~~~~
-**Tiger and rabbit**
+**Tiger And Rabbit**
 
 团队成员
 ~~~~~~~~~~~~~
