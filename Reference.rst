@@ -8,4 +8,3 @@
 
 [3]（美）Ritchie S. King .图说D3：数据可视化利器从入门到进阶[M]出版社: 电子工业出版, 2017-2 
 
-[4]（美）Wiegers, Karl E.Software Requirements third edition[M] 出版社:Microsoft Press, 1988-8 
