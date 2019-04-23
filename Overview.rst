@@ -7,7 +7,7 @@
 
 2.2 软件功能
 --------------
-.. image:: image/function.png
+.. image:: image/Function.png
 
 2.3 用户特征
 ----------
