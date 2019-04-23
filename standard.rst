@@ -2,4 +2,4 @@
 七、检验标准
 ============
 
-.. image:: image/Inspection-standard.png
+.. image:: image/inspection-standard.png
